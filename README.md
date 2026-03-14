@@ -1,10 +1,14 @@
 # AWS re/Start Cloud Portfolio
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-blue)
+![EC2](https://img.shields.io/badge/AWS-EC2-FF9900)
+![S3](https://img.shields.io/badge/AWS-S3-569A31)
 ![IAM](https://img.shields.io/badge/AWS-IAM-yellow)
-![EC2](https://img.shields.io/badge/AWS-EC2-orange)
-![AWS CLI](https://img.shields.io/badge/AWS-CLI-green)
+![SSM](https://img.shields.io/badge/AWS-SSM-lightgrey)
+![AWS CLI](https://img.shields.io/badge/AWS-CLI-blue)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-black)
+![Bash](https://img.shields.io/badge/Bash-Scripting-green)
+![HTML](https://img.shields.io/badge/HTML-Website-red)
 ![Status](https://img.shields.io/badge/Portfolio-In_Progress-success)
 
 Este repositório documenta minha jornada de aprendizado durante o programa **AWS re/Start**, focado em fundamentos de computação em nuvem, Linux, redes e serviços da AWS.
@@ -34,8 +38,8 @@ Cada laboratório possui sua própria pasta contendo:
 | Lab | Tema | Serviços AWS | Tecnologias & Ferramentas
 |----|----|----|----|
 | 01 | [Instalar e configurar AWS CLI em EC2](labs/01-aws-cli-ec2) | EC2, IAM e CLI | Linux, SSH
+| 02 | [Hospedagem de Site Estático no Amazon S3 usando AWS CLI](labs/02-aws-systems-manager) | S3, IAM, AWS SSM e CLI | Linux, Bash Script, HTML
 
----
 
 ## Tecnologias e serviços utilizados
 
@@ -44,6 +48,9 @@ Cada laboratório possui sua própria pasta contendo:
 - AWS CLI
 - Linux (Red Hat / Ubuntu)
 - SSH
+- Amazon S3
+- AWS Systems Manager
+- AW Session Manager
 
 ---
 
