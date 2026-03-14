@@ -12,6 +12,12 @@
 
 # Visão geral
 
+Neste laboratório implementei a hospedagem de um site estático no Amazon S3 utilizando principalmente a AWS CLI para criação e gerenciamento dos recursos. A partir de uma instância Linux acessada pelo AWS Systems Manager Session Manager, configurei as credenciais da AWS, criei um bucket no S3 e preparei os arquivos do site para publicação.
+
+Durante o processo, também utilizei comandos da CLI para criar um usuário IAM, ajustar permissões do bucket e habilitar acesso público aos objetos hospedados. Após preparar os arquivos do site no ambiente Linux, realizei o upload para o bucket e configurei o S3 para servir o index.html como página inicial.
+
+Por fim, criei um script Bash para automatizar o envio de novas versões do site para o S3, permitindo atualizar o conteúdo publicado de forma rápida e repetível.
+
 ---
 
 # Arquitetura do laboratório
