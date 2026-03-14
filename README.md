@@ -38,7 +38,7 @@ Cada laboratório possui sua própria pasta contendo:
 | Lab | Tema | Serviços AWS | Tecnologias & Ferramentas
 |----|----|----|----|
 | 01 | [Instalar e configurar AWS CLI em EC2](labs/01-aws-cli-ec2) | EC2, IAM e CLI | Linux, SSH
-| 02 | [Hospedagem de Site Estático no Amazon S3 usando AWS CLI](labs/02-aws-systems-manager) | S3, IAM, AWS SSM e CLI | Linux, Bash Script, HTML
+| 02 | [Hospedagem de Site Estático no Amazon S3 usando AWS CLI](labs/02-aws-s3-static-website) | S3, IAM, AWS SSM e CLI | Linux, Bash Script, HTML
 
 
 ## Tecnologias e serviços utilizados
