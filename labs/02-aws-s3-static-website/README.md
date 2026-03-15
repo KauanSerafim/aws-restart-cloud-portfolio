@@ -22,7 +22,7 @@ Por fim, criei um script Bash para automatizar o envio de novas versões do site
 
 # Arquitetura do laboratório
 
-![Arquitetura do laboratório](./sreenshoots/architecture.png)
+![Arquitetura do laboratório](./screenshots/architecture.png)
 
 ---
 
@@ -85,7 +85,7 @@ Formato de saída: json
 ```
 Configuração das credenciais AWS no terminal:
 
-![aws-cli-conn](./sreenshoots/aws-cli-config-conn-aws-account.png)
+![aws-cli-conn](./screenshots/aws-cli-config-conn-aws-account.png)
 
 ### 3. Criação do Bucket do S3 usando CLI
 
@@ -108,7 +108,7 @@ aws s3api create-bucket --bucket <nome-bucket> --region us-west-2 --create-bucke
 
 Saída no CLI:
 
-![saida-criacao-bucket-do-S3-cli](./sreenshoots/criacao-bucket-do-S3.png)
+![saida-criacao-bucket-do-S3-cli](./screenshots/criacao-bucket-do-S3.png)
 
 ### 4. Criação de usuário do IAM usando CLI
 
@@ -126,7 +126,7 @@ aws iam create-login-profile --user-name <nome-usuario> --password <senha-que-de
 
 Saínda no CLI:
 
-![perfil-de-login-criado](./sreenshoots/perfil-de-login-criado.png)
+![perfil-de-login-criado](./screenshots/perfil-de-login-criado.png)
 
 Ao final dessa etapa, um usuário do IAM consegue fazer Login em uma conta AWS. 
 
@@ -140,7 +140,7 @@ Anteriormente criamos o username e password. Para o ID da conta, ela é criada a
 
 Tela de login para usuários do IAM com perfil de login criado.
 
-![distribuição-dos-dados-para-login](./sreenshoots/distribuição-dos-dados-para-login-com-perfil.png)
+![distribuição-dos-dados-para-login](./screenshots/distribuição-dos-dados-para-login-com-perfil.png)
 
 ### 5. Ajuste de permissões do Bucket do S3
 
@@ -148,17 +148,17 @@ Nessa etapa, realizei algumas configurações diretamente no Console de Gerencia
 
 Acesso público bloqueado (Antes).
 
-![s3-acesso-bloqueado](./sreenshoots/bucket-do-S3-bloqueado-acesso-publico.png)
+![s3-acesso-bloqueado](./screenshots/bucket-do-S3-bloqueado-acesso-publico.png)
 
 Acesso público desbloqueado (Depois).
 
-![s3-acesso-desbloqueado](./sreenshoots/bucket-do-S3-desbloqueado-acesso-publico.png)
+![s3-acesso-desbloqueado](./screenshots/bucket-do-S3-desbloqueado-acesso-publico.png)
 
 
 Obs:
 também foi alterado o ACL (Lista de Controle de Acesso), o ACL foi habilitado para que os objetos no bucket do S3 pudessem ser propriedade de outra conta da AWS. Caso não seja feito, o upload de um arquivo em um bucket do S3 irá falhar.
 
-![saida-upload-com-acl-desabilitado](./sreenshoots/falha-upload-acl-desabilitado.png)
+![saida-upload-com-acl-desabilitado](./screenshots/falha-upload-acl-desabilitado.png)
 
 
 ### 6. Extraindo arquivo `static-website`
@@ -204,11 +204,11 @@ aws s3 cp /home/ec2-user/sysops-activity-files/static-website/ s3://<nome-bucket
  
  O parâmetro `--recursive`, indica que é necessário fazer upload de todos os arquivos no diretório atual na máquina.
 
- ![upload-static-website-com-sucesso](./sreenshoots/saida-upload-arquivo-website-com-sucesso.png)
+ ![upload-static-website-com-sucesso](./screenshots/saida-upload-arquivo-website-com-sucesso.png)
 
  Agora, o site estático está hospedado no Amazon S3.
 
- ![upload-static-website-com-sucesso](./sreenshoots/website-estatico-hospedado-no-S3.png)
+ ![upload-static-website-com-sucesso](./screenshots/website-estatico-hospedado-no-S3.png)
  
 
 ### 8. Criação de arquivo em lote para implantação repetível
@@ -243,7 +243,7 @@ Por fim com o editor `VI`, fiz algumas alterações no documento de índice `htm
 
 Website estático após as alterações
 
- ![upload-static-website-com-sucesso](./sreenshoots/website-estatico-atualizado-com-sucesso.png)
+ ![upload-static-website-com-sucesso](./screenshots/website-estatico-atualizado-com-sucesso.png)
 
 ---
 
