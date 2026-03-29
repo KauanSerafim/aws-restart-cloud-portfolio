@@ -1,14 +1,19 @@
 # AWS re/Start Cloud Portfolio
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-![EC2](https://img.shields.io/badge/AWS-EC2-FF9900)
-![S3](https://img.shields.io/badge/AWS-S3-569A31)
-![IAM](https://img.shields.io/badge/AWS-IAM-yellow)
-![SSM](https://img.shields.io/badge/AWS-SSM-lightgrey)
-![AWS CLI](https://img.shields.io/badge/AWS-CLI-blue)
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-black)
-![Bash](https://img.shields.io/badge/Bash-Scripting-green)
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![AWS](https://img.shields.io/badge/AWS-S3-green)
+![AWS](https://img.shields.io/badge/AWS-VPC-blue)
+![AWS](https://img.shields.io/badge/AWS-IAM-yellow)
+![AWS](https://img.shields.io/badge/AWS-SSM-lightgrey)
+![AWS](https://img.shields.io/badge/AWS-Auto_Scaling-blue)
+![AWS](https://img.shields.io/badge/AWS-ELB-lightgrey)
+![AWS](https://img.shields.io/badge/AWS-ALB-purple)
+![AWS](https://img.shields.io/badge/AWS-CloudWatch-red)
+![AWS CLI](https://img.shields.io/badge/AWS-CLI-yellow)
+![Linux](https://img.shields.io/badge/Linux-Terminal-black)
+![Bash](https://img.shields.io/badge/Bash-Script-green)
 ![HTML](https://img.shields.io/badge/HTML-Website-red)
+![Apache](https://img.shields.io/badge/Web_Server-Apache-white)
 ![Status](https://img.shields.io/badge/Portfolio-In_Progress-success)
 
 Este repositório documenta minha jornada de aprendizado durante o programa **AWS re/Start**, focado em fundamentos de computação em nuvem, Linux, redes e serviços da AWS.
@@ -42,16 +47,32 @@ Cada laboratório possui sua própria pasta contendo:
 | 01 | [Challenge Lab - Deploy de Aplicação Web em Instância EC2](labs/challenge-lab-ec2-deploy/) | EC2, VPC, Grupo de segurança, Internet gateway, Tabela de rotas e EC2 Instance Connect | Linux, SSH, Apache HTTP Server, HTML
 | 03 | [Auto Scaling com Application Load Balancer na AWS](labs/03-aws-auto-scaling/) | EC2, EC2 Auto Scaling, Grupo de segurança, Amazon CloudWatch, ALB, Launch Template, AWS CLI e EC2 Connect | Linux, Bash Script
 
-## Tecnologias e serviços utilizados
 
-- Amazon EC2
-- AWS Identity and Access Management (IAM)
-- AWS CLI
-- Linux (Red Hat / Ubuntu)
-- SSH
-- Amazon S3
-- AWS Systems Manager
-- AW Session Manager
+## Tecnologias e Serviços Utilizados
+
+Ao longo dos laboratórios, utilizei diversos serviços da AWS e tecnologias de apoio para construir, automatizar e escalar aplicações na nuvem.
+
+### Serviços AWS
+
+- Amazon EC2  
+- Amazon S3  
+- Amazon VPC  
+- Amazon EC2 Auto Scaling  
+- Elastic Load Balancer (ALB)  
+- Amazon CloudWatch  
+- AWS Identity and Access Management (IAM)  
+- AWS Systems Manager (SSM)  
+- AWS Session Manager  
+- AWS CLI  
+
+### Tecnologias e Ferramentas
+
+- Linux (Amazon Linux / Red Hat / Ubuntu)  
+- SSH  
+- Bash Script  
+- HTML  
+- Apache HTTP Server  
+
 
 ---
 
