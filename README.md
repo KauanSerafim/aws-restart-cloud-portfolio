@@ -42,10 +42,10 @@ Cada laboratório possui sua própria pasta contendo:
 
 | Lab | Tema | Serviços AWS | Tecnologias & Ferramentas
 |----|----|----|----|
-| LAB-01 | [Instalar e configurar AWS CLI em EC2](labs/01-aws-cli-ec2) | EC2, IAM e CLI | Linux, SSH
-| LAB-02 | [Hospedagem de Site Estático no Amazon S3 usando AWS CLI](labs/02-aws-s3-static-website) | S3, IAM, AWS SSM e CLI | Linux, Bash Script, HTML
+| LB-01 | [Instalar e configurar AWS CLI em EC2](labs/01-aws-cli-ec2) | EC2, IAM e CLI | Linux, SSH
+| LB-02 | [Hospedagem de Site Estático no Amazon S3 usando AWS CLI](labs/02-aws-s3-static-website) | S3, IAM, AWS SSM e CLI | Linux, Bash Script, HTML
 | CH-01 | [Challenge Lab - Deploy de Aplicação Web em Instância EC2](labs/challenge-lab-ec2-deploy/) | EC2, VPC, Grupo de segurança, Internet gateway, Tabela de rotas e EC2 Instance Connect | Linux, SSH, Apache HTTP Server, HTML
-| LAB-03 | [Auto Scaling com Application Load Balancer na AWS](labs/03-aws-auto-scaling/) | EC2, EC2 Auto Scaling, Grupo de segurança, Amazon CloudWatch, ALB, Launch Template, AWS CLI e EC2 Connect | Linux, Bash Script
+| LB-03 | [Auto Scaling com Application Load Balancer na AWS](labs/03-aws-auto-scaling/) | EC2, EC2 Auto Scaling, Grupo de segurança, Amazon CloudWatch, ALB, Launch Template, AWS CLI e EC2 Connect | Linux, Bash Script
 
 
 ## Tecnologias e Serviços Utilizados
