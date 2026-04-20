@@ -9,8 +9,11 @@
 ![AWS](https://img.shields.io/badge/AWS-ELB-lightgrey)
 ![AWS](https://img.shields.io/badge/AWS-ALB-purple)
 ![AWS](https://img.shields.io/badge/AWS-CloudWatch-red)
+![AWS](https://img.shields.io/badge/AWS-SNS-yellow)
+![AWS](https://img.shields.io/badge/AWS-Lambda-orange)
 ![AWS CLI](https://img.shields.io/badge/AWS-CLI-yellow)
 ![Linux](https://img.shields.io/badge/Linux-Terminal-black)
+![Python](https://img.shields.io/badge/Language-Python-blue)
 ![Bash](https://img.shields.io/badge/Bash-Script-green)
 ![HTML](https://img.shields.io/badge/HTML-Website-red)
 ![Apache](https://img.shields.io/badge/Web_Server-Apache-white)
@@ -44,8 +47,9 @@ Cada laboratório possui sua própria pasta contendo:
 |----|----|----|----|
 | LB-01 | [Instalar e configurar AWS CLI em EC2](labs/01-aws-cli-ec2) | EC2, IAM e CLI | Linux, SSH
 | LB-02 | [Hospedagem de Site Estático no Amazon S3 usando AWS CLI](labs/02-aws-s3-static-website) | S3, IAM, AWS SSM e CLI | Linux, Bash Script, HTML
-| CH-01 | [Challenge Lab - Deploy de Aplicação Web em Instância EC2](labs/challenge-lab-ec2-deploy/) | EC2, VPC, Grupo de segurança, Internet gateway, Tabela de rotas e EC2 Instance Connect | Linux, SSH, Apache HTTP Server, HTML
 | LB-03 | [Auto Scaling com Application Load Balancer na AWS](labs/03-aws-auto-scaling/) | EC2, EC2 Auto Scaling, Grupo de segurança, Amazon CloudWatch, ALB, Launch Template, AWS CLI e EC2 Connect | Linux, Bash Script
+| CH-01 | [Challenge Lab - Deploy de Aplicação Web em Instância EC2](labs/challenge-lab-ec2-deploy/) | EC2, VPC, Grupo de segurança, Internet gateway, Tabela de rotas e EC2 Instance Connect | Linux, SSH, Apache HTTP Server, HTML
+| CH-02 | [Challenge Lab - Criando uma Função do Lambda](labs/challenge-lab-aws-lambda/) | Lambda, Função do Lambda, SNS, S3, Bucket do S3 | Python, VS Code
 
 
 ## Tecnologias e Serviços Utilizados
@@ -54,25 +58,27 @@ Ao longo dos laboratórios, utilizei diversos serviços da AWS e tecnologias de 
 
 ### Serviços AWS
 
-- Amazon EC2  
-- Amazon S3  
-- Amazon VPC  
-- Amazon EC2 Auto Scaling  
-- Elastic Load Balancer (ALB)  
-- Amazon CloudWatch  
-- AWS Identity and Access Management (IAM)  
-- AWS Systems Manager (SSM)  
-- AWS Session Manager  
-- AWS CLI  
+- Amazon EC2
+- Amazon S3
+- Amazon VPC
+- Amazon EC2 Auto Scaling
+- Elastic Load Balancer (ALB)
+- AWS Lambda
+- Amazon Simple Notification Service (SNS)
+- Amazon CloudWatch
+- AWS Identity and Access Management (IAM)
+- AWS Systems Manager (SSM)
+- AWS Session Manager
+- AWS CLI (Command Line Interface)
 
 ### Tecnologias e Ferramentas
 
-- Linux (Amazon Linux / Red Hat / Ubuntu)  
-- SSH  
-- Bash Script  
-- HTML  
-- Apache HTTP Server  
-
+- Linux (Amazon Linux / Red Hat / Ubuntu)
+- SSH
+- Bash Script
+- HTML
+- Apache HTTP Server
+- Python
 
 ---
 
