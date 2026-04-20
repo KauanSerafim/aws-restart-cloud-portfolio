@@ -1,0 +1,1 @@
+O AWS Lambda é um serviço de computação sem servidor poderoso.
