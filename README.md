@@ -49,7 +49,7 @@ Cada laboratório possui sua própria pasta contendo:
 | LB-02 | [Hospedagem de Site Estático no Amazon S3 usando AWS CLI](labs/02-aws-s3-static-website) | S3, IAM, AWS SSM e CLI | Linux, Bash Script, HTML
 | LB-03 | [Auto Scaling com Application Load Balancer na AWS](labs/03-aws-auto-scaling/) | EC2, EC2 Auto Scaling, Grupo de segurança, Amazon CloudWatch, ALB, Launch Template, AWS CLI e EC2 Connect | Linux, Bash Script
 | LB-04 | [Migração de Banco de dados para o Amazon RDS](/labs/04-aws-migracao-rds/) | EC2, EC2 Auto Scaling, Grupo de segurança, Amazon CloudWatch, ALB, Launch Template, AWS CLI e EC2 Connect | Linux, Bash Script
-| LB-05 | [Solucionando problemas de uma VPC](/labs/05-aws-vpc/) | EC2, VPC, Grupo de segurança, AWS CLI e EC2 Connect | Linux
+| LB-05 | [Solucionando problemas de uma VPC](/labs/05-aws-vpc/) | EC2, VPC, Grupo de segurança, S3, AWS CLI e EC2 Connect | Linux
 | CH-01 | [Challenge Lab - Deploy de Aplicação Web em Instância EC2](labs/challenge-lab-ec2-deploy/) | RDS, EC2, VPC, CloudWatch, Systems Manager, AWS CLI e Security Groups | Linux
 | CH-02 | [Challenge Lab - Criando uma Função do Lambda](labs/challenge-lab-aws-lambda/) | Lambda, Função do Lambda, SNS, S3, Bucket do S3 | Python, VS Code
 
