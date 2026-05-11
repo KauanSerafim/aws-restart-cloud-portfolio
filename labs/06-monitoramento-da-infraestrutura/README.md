@@ -1,5 +1,13 @@
 # Conformidade e Monitoramento da Infraestrutura
 
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![AWS](https://img.shields.io/badge/AWS-CloudWatch-yellow)
+![AWS](https://img.shields.io/badge/AWS-CloudWatch_Logs-blue)
+![AWS](https://img.shields.io/badge/AWS-CloudWatch_Events-lightgrey)
+![AWS](https://img.shields.io/badge/AWS-Systems_Manager-green)
+![AWS](https://img.shields.io/badge/AWS-Config-purple)
+![AWS](https://img.shields.io/badge/AWS-SNS-red)
+
 ## Visão geral
 
 Neste laboratório implementei uma solução de monitoramento e conformidade utilizando serviços da AWS para acompanhar métricas, logs e eventos de infraestrutura em tempo real.
