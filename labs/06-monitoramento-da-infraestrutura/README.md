@@ -22,6 +22,10 @@ Além do monitoramento, utilizei o AWS Config para validar conformidade da infra
 
 Ao final do laboratório foi possível monitorar logs da aplicação em tempo real, acompanhar métricas detalhadas da instância e receber alertas automáticos sobre alterações e problemas na infraestrutura.
 
+## Diagrama
+
+![diagrama-do-laboratorio](image.png)
+
 ## Serviços utilizados
 - Amazon EC2
 - Amazon CloudWatch
